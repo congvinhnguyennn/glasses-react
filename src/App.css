@@ -1,0 +1,65 @@
+.App {
+  background-image: url('./assets/images/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  color: white;
+  padding: 1.5rem 0;
+}
+
+.model {
+  justify-content: space-between;
+}
+
+.model .col {
+  text-align: center;
+}
+
+.glasses {
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: white;
+}
+
+.glass img {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.model-imgs {
+  padding: 2rem;
+  position: relative;
+}
+
+.glass-info h4 {
+  color: blue;
+}
+
+.glass-info {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  right: 2rem;
+  background-color: #ffa500a1;
+  padding: 1rem;
+  text-align: left;
+}
+
+.trying-glass {
+  width: 50%;
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.7;
+}
+
+.model-bg {
+  width: 100%;
+}
